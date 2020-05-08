@@ -83,7 +83,7 @@ for count in new.index.values[1:].tolist(): # removes first patient so it doesn'
 # Checks duplicity in the first column, Keeps first entry
 new = new.drop_duplicates(subset=[cols[0]])
 # to export as csv
-new.to_csv('out.csv', index=False)
+# new.to_csv('out.csv', index=False)
 # pip install openpyxl 
 new.to_excel("output.xlsx", sheet_name='Sheet_1', index=False)
 
