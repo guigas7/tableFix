@@ -31,18 +31,35 @@ lines = [{'day':'0', 'quests':[0, 1, 2]}, # linha 0
 ]    
 
 # List of questionaries, the destiny has to be filled individually for each line
-quests = [{'short':'adcl', 'desc':'Avaliação diária, clínica e laboratorial', 'start_or':125, 'end_or':180}, # quest 0
-         {'short':'adip', 'desc':'Avaliação diária de imagem pulmonar', 'start_or':181, 'end_or':185}, # quest 1
-         {'short':'adpvgf', 'desc':'Avaliação diária de parâmetros ventilatórios, gasométricos e funcionais', 'start_or':186, 'end_or':214}, # quest 2
-         {'short':'ade', 'desc':'Avaliação diária de eletrocardiograma', 'start_or':122, 'end_or':124}, # quest 3
+quests = [{'short':'adcl', 'desc':'Avaliação diária, clínica e laboratorial', 'start_or':0, 'end_or':0,
+           'start_loc':'data_da_avalia_o', 'end_loc':'avaliao_diria_clnica_e_laboratorial_complete'}, # quest 0
+         {'short':'adip', 'desc':'Avaliação diária de imagem pulmonar', 'start_or':0, 'end_or':0,
+          'start_loc':'data_tomo', 'end_loc':'avaliao_diria_de_imagem_pulmonar_complete'}, # quest 1
+         {'short':'adpvgf', 'desc':'Avaliação diária de parâmetros ventilatórios, gasométricos e funcionais', 'start_or':0, 'end_or':0,
+          'start_loc':'data_da_avalia_o_2', 'end_loc':'avaliao_diria_de_parmetros_ventilatrios_gasomtrico_complete'}, # quest 2
+         {'short':'ade', 'desc':'Avaliação diária de eletrocardiograma', 'start_or':0, 'end_or':0,
+          'start_loc':'data_eletro', 'end_loc':'avaliao_de_eletrocardiograma_complete'}, # quest 3
 ]
 
+
+
 # Questionaries from last line of each entry, origin and destiny columns are the same
-post = [{'desc':'Todos', 'start':215, 'end':390}] # pos uti
+post = [{'desc':'Todos', 'start':0, 'end':0,
+         'start_loc':'teste_cov_2', 'end_loc':'desfecho_da_uti_complete'}] # pos uti
 
 # Create dataframe and column list
 df = pd.read_csv('input.csv')
 cols = df.columns.tolist()
+
+# translate col names for col indexes (indexes can vary per quetionaries, names don't)
+for q in quests:
+    q['start_or'] = df.columns.get_loc(q['start_loc']);
+    q['end_or'] = df.columns.get_loc(q['end_loc']);
+# translate col names for col indexes
+for p in post:
+    p['start'] = df.columns.get_loc(p['start_loc']);
+    p['end'] = df.columns.get_loc(p['end_loc']);
+
 names = []
 # For each possible line, for each questionary the current line can have, make new columns for all columns this questionary has, with the day in the column label
 for l in range(2, len(lines)): # from day 2 to last (there's no day 0 and day 1 stays in place)
