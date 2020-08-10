@@ -5,28 +5,28 @@ import pandas as pd
 
 # 2 days offset. It starts by the second line (first repeated patient entry)
 lines = [{'day':'0', 'quests':[0, 1, 2]}, # linha 0
-        {'day':'1', 'quests':[0, 1, 2]}, # linha 1
-        {'day':'2', 'quests':[0, 1, 2]}, # linha 2
-        {'day':'3', 'quests':[0, 1, 2]},  # linha 3
-        {'day':'4', 'quests':[0, 1, 2]},  # linha 4
-        {'day':'5', 'quests':[0, 1, 2]},  # linha 5
-        {'day':'6', 'quests':[0, 1, 2, 3]},  # linha 6
-        {'day':'7', 'quests':[0, 1, 2]},  # linha 7
-        {'day':'8', 'quests':[0, 1, 2]},  # linha 8
-        {'day':'9', 'quests':[0, 1, 2]},  # linha 9
-        {'day':'10', 'quests':[0, 1, 2]},  # linha 10
-        {'day':'11', 'quests':[0, 1, 2]},  # linha 11
-        {'day':'12', 'quests':[0, 1, 2]},  # linha 12
-        {'day':'13', 'quests':[0, 1, 2]},  # linha 13
-        {'day':'14', 'quests':[0, 1, 2]},  # linha 14
-        {'day':'15', 'quests':[0, 1, 2]},  # linha 15
-        {'day':'16', 'quests':[0, 1, 2]},  # linha 16
-        {'day':'17', 'quests':[0, 1, 2]},  # linha 17
-        {'day':'20', 'quests':[0, 1, 2]},  # linha 18
-        {'day':'23', 'quests':[0, 1, 2]},  # linha 19
-        {'day':'26', 'quests':[0, 1, 2]},  # linha 20
-        {'day':'29', 'quests':[0, 1, 2]},  # linha 21
-        {'day':'30', 'quests':[0, 1, 2]},  # linha 22
+        {'day':'1', 'quests':[0, 2]}, # linha 1
+        {'day':'2', 'quests':[0, 2]}, # linha 2
+        {'day':'3', 'quests':[0, 2]},  # linha 3
+        {'day':'4', 'quests':[0, 2]},  # linha 4
+        {'day':'5', 'quests':[0, 2]},  # linha 5
+        {'day':'6', 'quests':[0, 2, 3]},  # linha 6
+        {'day':'7', 'quests':[0, 2]},  # linha 7
+        {'day':'8', 'quests':[0, 2]},  # linha 8
+        {'day':'9', 'quests':[0, 2]},  # linha 9
+        {'day':'10', 'quests':[0, 2]},  # linha 10
+        {'day':'11', 'quests':[0, 2]},  # linha 11
+        {'day':'12', 'quests':[0, 2]},  # linha 12
+        {'day':'13', 'quests':[0, 2]},  # linha 13
+        {'day':'14', 'quests':[0, 2]},  # linha 14
+        {'day':'15', 'quests':[0, 2]},  # linha 15
+        {'day':'16', 'quests':[0, 2]},  # linha 16
+        {'day':'17', 'quests':[0, 2]},  # linha 17
+        {'day':'20', 'quests':[0, 2]},  # linha 18
+        {'day':'23', 'quests':[0, 2]},  # linha 19
+        {'day':'26', 'quests':[0, 2]},  # linha 20
+        {'day':'29', 'quests':[0, 2]},  # linha 21
+        {'day':'30', 'quests':[0, 2]},  # linha 22
         {'day':'30', 'quests':[]},  # linha 23 (pós)
 ]    
 
