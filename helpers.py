@@ -1,35 +1,42 @@
 from patient import Patient
 
-def getHospitalByUti(uti):
-    return uti.split()[0]
+# Initialize sofa column names
+sofa = []
+
+for day in range(0,32):
+    start = 'Data - Registro SOFA ' + str(day)
+    end = 'Creatinina - Registro SOFA ' + str(day)
+    sofa.append({'start': start, 'end': end})
 
 def getPatientByRow(row, df):
     return Patient(
+        df.loc[row, 'Hospital'], # Hospital
         df.loc[row, 'UTI'], # UTI
-        df.loc[row,'Paciente'], # Name
-        df.loc[row,'Data/horário internamento'], # Admission Date
-        df.loc[row,'Registro'], # Register
-        df.loc[row,'Prontuário'], # medical Record
-        df.loc[row,'Data alta'] # Discharge Date
+        df.loc[row, 'Paciente'], # Name
+        df.loc[row, 'Data internamento'], # Admission Date
+        df.loc[row, 'Registro'], # Register
+        df.loc[row, 'Prontuário'], # medical Record
+        df.loc[row, 'Data alta'], # Discharge Date
+        row
     )
 
-def comparePatients(previousPatient, currentPatient):
-    samePatient = (
-        # If it is the same patient
-        previousPatient.hospital == currentPatient.hospital and
-        previousPatient.name == currentPatient.name and
-        previousPatient.register == currentPatient.register and
-        previousPatient.medicalRecord == currentPatient.medicalRecord and
-        # If it is a transfer
-        previousPatient.dischargeDate == currentPatient.admissionDate
-    )
+def getParent(row, cameFrom):
+    parent = cameFrom[row]
+    if parent == False:
+        return row
+    return getParent(cameFrom[row], cameFrom)
 
-    # Confirmar se o registro e prontuário sempre são iguais no reinternamento
+def appendSofa(transferRow, parentRow, df):
+    offset = lastFilledSofa(parentRow, df) + 1
+    limit = lastFilledSofa(transferRow, df)
+    increase = limit - 1
+    if limit != 0:
+        print('Passando colunas: ' + str(1) + ' até ' + str(limit))
+        print('Para colunas: ' + str(offset) + ' até ' + str(offset + increase))
+        df.loc[parentRow, sofa[offset]['start']:sofa[offset + increase]['end']] = df.loc[transferRow, sofa[1]['start']:sofa[limit]['end']]
+    return df
 
-# Planilha com 5 pacientes
-# 
-# todos com o mesmo nome e mesmo registro
-# 
-# 3 linhas (01/05/2017 marcelino 1 05/05/2017 -> 05/05/2017 marcelino 2 10/05/2017 -> 10/05/2017 marcelino 3 15/05/2017)
-# 1 linha (03/05/2017 santa casa 07/05/2017)
-# 1 linha (12/05/2017 cajuru 17/05/2017)
+def lastFilledSofa(row, df):
+    for day in range(1,32):
+        if str(df.loc[row, sofa[day]['start']]) == 'N/H':
+            return day - 1

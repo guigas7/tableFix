@@ -1,10 +1,10 @@
 class Patient:
-    def __init__(self, uti, name, admissionDate, register, medicalRecord, dischargeDate, row):
+    def __init__(self, hospital, uti, name, admissionDate, register, medicalRecord, dischargeDate, row):
+        self.hospital = hospital
         self.uti = uti
-        self.hospital = uti.split()[0]
         self.name = name
-        self.admissionDate = admissionDate.split()[0]
+        self.admissionDate = admissionDate
         self.register = register
         self.medicalRecord = medicalRecord
-        self.dischargeDate = dischargeDate.split()[0]
+        self.dischargeDate = dischargeDate
         self.row = row

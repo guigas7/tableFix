@@ -5,58 +5,95 @@ import pandas as pd
 
 # Create dataframe and column list
 # df = pd.read_csv('/mnt/d/Users/Cepeti1/Downloads/export.tsv', sep='\t', infer_datetime_format=True)
-df = pd.read_excel('/mnt/d/Users/Cepeti1/Downloads/export.xlsx', sheet_name='Planilha1', engine="openpyxl")
+# df = pd.read_excel('export.xlsx', sheet_name='Planilha1', engine="openpyxl")
+df = pd.read_excel('final.xlsx', sheet_name='Página 1', engine="openpyxl")
 
-toDelete = [False]*len(df.index)
+print('Importação concluída')
 
-dup = df[].duplicated()
+
+# Tells if each row came from a transfer (False or row index)
+orig = df
+
+cameFrom = [False]*len(df.index)
 
 # df.sort_values(by=['Paciente', 'Registro', 'Data/horário internamento'], inplace=True, ascending=[True, True, True])
 
 # df.sort_values(by=['Paciente', 'Registro', 'Data/horário internamento'], ascending=[True, True, True], ignore_index=True)
 
-# df.head(15000).to_excel("output.xlsx", sheet_name="Sheet_1", index=False)
+# Make sure all cells are strings
+df['Paciente'] = df['Paciente'].astype('str') 
+df['Paciente'] = df['Paciente'].str.strip().str.upper() # Clean trailing and preceding spaces // makes all upper case
+df['Destino alta'] = df['Destino alta'].astype('str')
+df['Hospital'] = df['Hospital'].astype('str')
+df['UTI'] = df['UTI'].astype('str')
 
-df['Data/horário internamento'] = pd.to_datetime(df['Data/horário internamento'], format="%d/%m/%Y %H:%M:%S", errors='coerce')
-df['Data alta'] = pd.to_datetime(df['Data alta'], format="%d/%m/%Y %H:%M", errors='coerce')
+df['Registro'] = df['Registro'].astype('Int64', errors='ignore').astype('str')
+df['Prontuário'] = df['Prontuário'].astype('Int64', errors='ignore').astype('str')
 
-df.dropna(how='all')
+df['Data internamento'] = pd.to_datetime(df['Data internamento'], format="%d/%m/%Y", errors='ignore')
+df['Data alta'] = pd.to_datetime(df['Data alta'], format="%d/%m/%Y", errors='ignore')
 
-df = df.sort_values(by=['Paciente', 'Registro', 'Data/horário internamento'], ascending=[True, True, True], ignore_index=True)
+df['Data internamento'] = df['Data internamento'].dt.date
+df['Data alta'] = df['Data alta'].dt.date
 
-print(datetime.now().strftime('%T'))
-print('Terminou de ordenar')
+# df.dropna(how='all')
+df.drop_duplicates(subset=['Paciente', 'Hospital', 'Data internamento', 'Registro', 'Prontuário', 'Data alta', 'Data nascimento'], keep='first', inplace=True)
 
-max = len(df.index)
-stop = -1
-step = 10000
-loops = 1
-start = 0
-while start < max:
-    start = stop + 1
-    stop = 10000 * loops
-    df.loc[start:stop].to_excel("ordered" + str(loops) + ".xlsx", sheet_name="Sheet_1", index=False)
-    loops = loops + 1
+df.sort_values(by=['Paciente', 'Hospital', 'Registro', 'Data internamento'], ascending=[True, True, True, True], ignore_index=True, inplace=True)
 
-print(datetime.now().strftime('%T'))
-print('Terminou de exportar')
-previousPatient = Patient(0, df)
-for row in df.index.values[1:].tolist(): # removes first patient so it doesn't start without a previous patient
-    if toDelete == True:
-        currentPatient = Patient(row, df)
-        comparison = comparePatients(previous, current)
-        if comparison == -1:
-            toDelete[row] = True
-        if comparison == 1:
-            # This patient has at least one namesake
-            FirstLineData = previousPatient
-            # for each line of this patient, in this hospital, if any transfer is found, copy the data
-            lineOfTreatment = FirstLineData
-            samePatient = true
-            while samePatient
-            # toAppend = current
-            # Loop de transferência aka while comparePatients(FirstLineData, toAppend) == 1
-                # appendSofa(toAppend.row, firstLineData.row, toDelete) # marks to delete toAppend's row on array toDelete
-            # CopyDischarge(toAppend.row - 1, firstLineData.row)
+print('Tratamento de caracteres, remoção de linhas duplicadas e ordenação concluídos')
+print('------x------x------x------x------')
+print('------x------x------x------x------')
+print('------x------x------x------x------')
 
-    # previousPatient = currentPatient
+rowsWithTransfers = df.loc[df['Destino alta'] == 'Outra UTI'].index.tolist()
+for row in rowsWithTransfers:
+    transferPatient = handle.getPatientByRow(row, df)
+    possibleTrasnferedRows = df.loc[(df['Hospital'] == transferPatient.hospital) & (df['Paciente'] == transferPatient.name) & (df['Registro'] == transferPatient.register)].drop(row)
+    for index in possibleTrasnferedRows.index.tolist():
+        possiblePatient = handle.getPatientByRow(index, df)
+        # If is a transfer
+        if transferPatient.dischargeDate == possiblePatient.admissionDate:
+            cameFrom[possiblePatient.row] = transferPatient.row
+            parentRow = handle.getParent(transferPatient.row, cameFrom)
+            # Copy discharge data to parent
+            print('Paciente ' + transferPatient.name + ' transferido de ' + transferPatient.uti + ' para ' + possiblePatient.uti + ' no dia ' + transferPatient.dischargeDate.strftime('%d/%m/%Y'))
+            df.loc[parentRow, 'Tipo alta':'Resumo alta'] = df.loc[possiblePatient.row, 'Tipo alta':'Resumo alta']
+            # df = handle.appendSofa(possiblePatient.row, parentRow, df)
+            break
+
+print('------x------x------x------x------')
+print('------x------x------x------x------')
+print('------x------x------x------x------')
+print('Cópia de dados de alta de transferências concluída')
+
+for index, parent in enumerate(cameFrom):
+    if parent != False:
+        df = df.drop(index)
+
+print('Exclusão de linhas de transferências concluída')
+
+df.to_excel("done.xlsx", sheet_name="Página 1", index=False)
+
+print('Exportação concluída sem erros')
+
+# ----------------
+# Segmented export
+# ----------------
+
+# In case of failure to export all in one file
+
+# Max step achieved on LaptopTI = 10.000 (failed on 30.000)
+
+# Max step achieved on Blade2 = 30.000 (never failed)
+
+# max = len(df.index)
+# stop = -1
+# step = 10000
+# loops = 1
+# start = 0
+# while start < max:
+#     start = stop + 1
+#     stop = 10000 * loops
+#     df.loc[start:stop].to_excel("ordered" + str(loops) + ".xlsx", sheet_name="Sheet_1", index=False)
+#     loops = loops + 1
