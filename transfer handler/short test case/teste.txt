@@ -3,13 +3,6 @@ Tratamento de caracteres, remoção de linhas duplicadas e ordenação concluíd
 ------x------x------x------x------
 ------x------x------x------x------
 ------x------x------x------x------
-Aumentando colunas de SOFA
-Aumentando colunas de SOFA
-Aumentando colunas de SOFA
-Aumentando colunas de SOFA
-Aumentando colunas de SOFA
-Aumentando colunas de SOFA
-Aumentando colunas de SOFA
 Paciente ADELINO ALVES DA SILVA transferido de Vita Batel 3 para Vita Batel no dia 17/05/2018
 Paciente ALEXANDRE BERTOLI transferido de Vita Batel para Vita Batel 2 no dia 05/07/2017
 Paciente ALEXANDRE BERTOLI transferido de Vita Batel para Vita Batel 3 no dia 20/07/2017
