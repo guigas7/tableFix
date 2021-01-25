@@ -11,3 +11,15 @@ the data is all copied to the first line of each unique entry in col 0, all repe
 replicate.py -> From a base table in the same directory, called 'input.csv', for all questionaries in admiss and for all
 questionaries in post, copies admiss values to all the subsequent rows from the same patient and all the post values to
 all the previous rows from the same patient.
+
+Transfer Handler
+
+---- patient.py -> Defines Patient class
+
+---- helpers.py -> Helpers to clean lookups in the dataframe
+
+---- sofa.py -> Keeps Sofa data structure and helpers to append, check and increase it
+
+---- clean_transf.py -> From a base table in the same directory, called 'input.csv', process all lines to remove trailing
+                        and leading spaces on patient names and makes it all uppercas. For all transfers pass all
+                        sofa + discharge data from the transfer lines to the parent line.
