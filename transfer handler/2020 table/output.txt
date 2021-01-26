@@ -1,0 +1,190 @@
+Importação concluída
+Tratamento de caracteres, remoção de linhas duplicadas e ordenação concluídos
+------x------x------x------x------
+------x------x------x------x------
+------x------x------x------x------
+Paciente ADEMIR ANTONIO DE OLIVEIRA transferido de Santa Casa UTI2 para Santa Casa UTI5 no dia 30/12/2020
+Paciente ADRIANE CRISTINA DOS SANTOS transferido de Trabalhador COVID 1 para Trabalhador COVID 2 no dia 07/06/2020
+Paciente ALBERTINA PRESTES COLMAN transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 18/11/2020
+Paciente ALCEU CESAR DOS SANTOS transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 07/07/2020
+Paciente ALICE JOAQUINA DE SOUZA transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 28/12/2020
+Paciente ALTAMIR CLAUMANN transferido de Vita Batel 3 para Vita Batel 2 no dia 25/01/2020
+Paciente ALTAMIRO CALEGARI transferido de Ecoville 2 para Ecoville no dia 08/11/2020
+Paciente AMARILDO RUTECKI transferido de Ecoville 2 para Ecoville no dia 17/09/2020
+Paciente ANDERSON PACHECO DE SOUZA transferido de Reabilitação COVID 3 para Reabilitação COVID 4 no dia 11/08/2020
+Paciente ANGELO FESTA transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 30/04/2020
+Paciente ANTONIA TEIXEIRA FAGUNDES transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 13/07/2020
+Paciente ANTONIO CARLOS VINK transferido de Vita Batel 2 para Vita Batel no dia 02/04/2020
+Paciente ANTONIO PINHEIRO DE OLIVEIRA transferido de SantaCasa UTI1 CirúrgicaB para SantaCasa UTI1 CirúrgicaA no dia 05/03/2020
+Paciente APARECIDA BACARIM LACERDA transferido de Vita Batel 3 para Vita Batel 2 no dia 23/11/2020
+Paciente APARECIDO PEREIRA transferido de Reabilitação COVID 3 para Reabilitação COVID 4 no dia 11/05/2020
+Paciente ARISTIDES KLOSS transferido de Vita Batel 3 para Vita Batel 2 no dia 26/08/2020
+Paciente ARLETE POLICARPO RICARDO CARVALHO transferido de Marcelino 2 para Marcelino 4 no dia 29/09/2020
+Paciente ARNALDO MARCHIORO transferido de Vita Batel 2 para Vita Batel 3 no dia 19/11/2020
+Paciente AROLDO ALVES FARIAS transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 14/07/2020
+Paciente AUGUSTO ALVES DE LIMA transferido de Reabilitação COVID 3 para Reabilitação COVID 5 no dia 19/06/2020
+Paciente AURORA MAURER PIMENTEL transferido de Reabilitação COVID 3 para Reabilitação COVID 4 no dia 19/08/2020
+Paciente BRASILIO SERBENA transferido de Ecoville 2 para Ecoville no dia 03/10/2020
+Paciente CARLOS CESAR VILLATORE transferido de Ecoville 2 para Ecoville no dia 21/10/2020
+Paciente CARLOS ROBERTO ZANIOLO transferido de Ecoville 2 para Ecoville no dia 22/05/2020
+Paciente CARLOS ROBERTO ZANIOLO transferido de Ecoville 2 para Ecoville no dia 11/06/2020
+Paciente CARLOS TADEU KOPPE transferido de Marcelino 2 para Marcelino 4 no dia 25/10/2020
+Paciente CARMEM PRESCILIANA FRANCA BIANCO transferido de Vita Batel para Vita Batel 2 no dia 14/12/2020
+Paciente CELSO DO CARMO SILVA transferido de Reabilitação COVID 4 para Reabilitação COVID 6 no dia 13/07/2020
+Paciente CERLI SKUEREK transferido de Reabilitação COVID 5 para Reabilitação COVID 6 no dia 01/09/2020
+Paciente CEZAR QUEIROZ DE FREITAS transferido de Marcelino 2 para Marcelino 4 no dia 24/04/2020
+Paciente CIRINO HERCILIO SOARES transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 07/06/2020
+Paciente CLAUDETE TAKEDA MELIM transferido de Marcelino 4 para Marcelino 2 no dia 23/08/2020
+Paciente CLEUSA MARIA RODRIGUES DE LIMA transferido de Trabalhador COVID 2 para Trabalhador COVID 1 no dia 18/06/2020
+Paciente CLOTILDE CARVALHO DOS ANJOS transferido de Ecoville para Ecoville 2 no dia 15/09/2020
+Paciente CORNELIO OLIVEIRA DOS SANTOS transferido de Santa Casa UTI3 para Santa Casa UTI4 no dia 05/10/2020
+Paciente DAGOBERTO SANTANA DE CARVALHO transferido de SantaCasa UTI1 CirúrgicaA para SantaCasa UTI1 CirúrgicaB no dia 06/09/2020
+Paciente DARCI PERUGINE GILIOLI transferido de Ecoville para Ecoville 2 no dia 18/06/2020
+Paciente DARCI SALOMAO FILHO transferido de Vita Batel 2 para Vita Batel no dia 08/01/2020
+Paciente DICESAR ANTONIO CORDEIRO transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 31/08/2020
+Paciente DINARTE DOERO DA LUZ transferido de Santa Casa UTI3 para Santa Casa UTI2 no dia 05/10/2020
+Paciente DIONETE FABRI transferido de Vita Batel 2 para Vita Batel no dia 30/09/2020
+Paciente DIVA MURGIA DA SILVA transferido de Marcelino 4 para Marcelino 2 no dia 19/05/2020
+Paciente DIVINO APARECIDO SIQUEIRA transferido de Reabilitação COVID 5 para Reabilitação COVID 4 no dia 03/08/2020
+Paciente DOUGLAS LUIS ALVES DE SOUZA transferido de Reabilitação COVID 5 para Reabilitação COVID 4 no dia 04/08/2020
+Paciente DOUGLAS RODRIGUES CARRAO transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 21/06/2020
+Paciente DURIVAL PEREIRA transferido de Ecoville 2 para Ecoville no dia 21/07/2020
+Paciente EDITE GIACOMINI transferido de Vita Batel 2 para Vita Batel no dia 25/09/2020
+Paciente EDITE RUPPERT CAPUTO PETERS transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 13/07/2020
+Paciente EDSON LUIZ DE SOUZA CALISARIO transferido de Cajuru IV para Cajuru II no dia 30/05/2020
+Paciente EMILIA AUGUSTA DE OLIVEIRA transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 16/07/2020
+Paciente EMILIA SOARES CARDOSO BONIFACIO transferido de Reabilitação COVID 5 para Reabilitação COVID 7 no dia 24/11/2020
+Paciente EMILINA VOIGT NADOLINI transferido de Ecoville 2 para Ecoville no dia 05/05/2020
+Paciente ENY APPARECIDA GALVAO PATRIOTA transferido de Vita Batel para Vita Batel 3 no dia 25/01/2020
+Paciente ESTER TERESINHA CURY FURLAN transferido de Santa Casa UTI3 para Santa Casa UTI4 no dia 24/06/2020
+Paciente EUGENIO ZAPPE transferido de Cajuru II para Cajuru I no dia 10/05/2020
+Paciente EVANDRO HENRKER MIKOSKI transferido de Cajuru IV para Cajuru I no dia 30/07/2020
+Paciente FABIO ROBERTO PIERIN BONATTO transferido de Vita Batel para Vita Batel 2 no dia 22/12/2020
+Paciente FILIPE CORDEIRO transferido de Marcelino 2 para Marcelino 4 no dia 04/06/2020
+Paciente FLAVIA CAROLINE CARNEIRO LEAO transferido de Ecoville 2 para Ecoville no dia 14/04/2020
+Paciente FLAVIO JOSE SIATKOVSKI transferido de Vita Batel para Vita Batel 2 no dia 10/12/2020
+Paciente FLORENTINO TENORIO CAVALCANTE transferido de Vita Batel 2 para Vita Batel no dia 20/05/2020
+Paciente FRANCISCO BARBOSA transferido de Trabalhador COVID 2 para Trabalhador COVID 1 no dia 31/03/2020
+Paciente GIANLUCA CANTONI transferido de Vita Batel para Vita Batel 2 no dia 10/12/2020
+Paciente GIOVANNI BRUNO FARINAZZO transferido de Trabalhador COVID 1 para Trabalhador COVID 2 no dia 28/10/2020
+Paciente GIOVANNY BERNARDO WRUBLEVSKI transferido de Ecoville para Ecoville 2 no dia 01/06/2020
+Paciente HELENA ROSA DA FONSECA transferido de Vita Batel para Vita Batel 2 no dia 25/09/2020
+Paciente INÊS VITORIA DE MATTO transferido de Vita Batel para Vita Batel 2 no dia 26/03/2020
+Paciente IRINEU TOBIAS transferido de Reabilitação COVID 4 para Reabilitação COVID 6 no dia 31/08/2020
+Paciente IVONETE BUENO POLIDORO transferido de Marcelino 2 para Marcelino 4 no dia 09/09/2020
+Paciente IZABEL TEREZINHA SOARES BORGES transferido de Reabilitação COVID 5 para Reabilitação COVID 6 no dia 07/08/2020
+Paciente JACIRA TIZON transferido de Reabilitação COVID 5 para Reabilitação COVID 7 no dia 24/11/2020
+Paciente JAIR ARMSTRONG RAMONS transferido de Cajuru I para Cajuru II no dia 01/06/2020
+Paciente JAKSON FELIPE FERREIRA SALDANHA transferido de Trabalhador Trauma para Trabalhador COVID 1 no dia 29/12/2020
+Paciente JANETTE MARIA VARELA transferido de Vita Batel para Vita Batel 3 no dia 16/01/2020
+Paciente JOAQUIM BALBINO DE SOUZA transferido de Ecoville 2 para Ecoville no dia 25/10/2020
+Paciente JORGE LUIZ CECCON transferido de Vita Batel para Vita Batel 2 no dia 08/06/2020
+Paciente JORGE OMAR FORNER DE OLIVEIRA transferido de Vita Batel 3 para Vita Batel 2 no dia 04/09/2020
+Paciente JORGINA SOARES DE LIMA transferido de Ecoville para Ecoville 2 no dia 15/09/2020
+Paciente JOSE ALTAMIR DE SIQUEIRA transferido de SantaCasa UTI1 CirúrgicaA para SantaCasa UTI1 CirúrgicaB no dia 25/05/2020
+Paciente JOSE MARIA CURUPANA transferido de Trabalhador COVID 1 para Trabalhador COVID 2 no dia 26/10/2020
+Paciente JOSEFA COSTA PINTO transferido de Cajuru IV para Cajuru II no dia 29/05/2020
+Paciente JOSÉ AMARAL transferido de Reabilitação COVID 3 para Reabilitação COVID 5 no dia 13/10/2020
+Paciente JOSÉ VANDERLEY DA ROCHA transferido de Ecoville 2 para Ecoville no dia 23/09/2020
+Paciente JUAREZ FERNANDES DA CONCEICAO transferido de Santa Casa UTI3 para Santa Casa UTI5 no dia 13/08/2020
+Paciente JURANDIR ANDRE DE ARAGAO transferido de Ecoville 2 para Ecoville no dia 03/11/2020
+Paciente JURANDIR ANDRE DE ARAGAO transferido de Ecoville para Ecoville 2 no dia 11/11/2020
+Paciente JURANDIR ANDRE DE ARAGAO transferido de Ecoville 2 para Ecoville no dia 02/12/2020
+Paciente KAORU NAITO transferido de Vita Batel para Vita Batel 3 no dia 23/01/2020
+Paciente LEANDRO MOZARTH PARANA transferido de Vita Batel 3 para Vita Batel 2 no dia 21/08/2020
+Paciente LICIO FELIZ transferido de Trabalhador COVID 1 para Trabalhador Trauma no dia 31/03/2020
+Paciente LOURDES NUNES DE FREITAS transferido de Cajuru I para Cajuru IV no dia 31/05/2020
+Paciente LUANA MARIA SCARANT BISSI transferido de Reabilitação COVID 3 para Reabilitação COVID 4 no dia 07/07/2020
+Paciente LUCIA DOMINGUES PEREIRA SOUSA transferido de Reabilitação COVID 5 para Reabilitação COVID 3 no dia 13/10/2020
+Paciente LUCIO CHRISTOVAM FURTADO DE MIRANDA transferido de Ecoville 2 para Ecoville no dia 24/09/2020
+Paciente LUIS CARLOS DA SILVA MIRANDA transferido de Santa Casa UTI2 para Santa Casa UTI4 no dia 17/12/2020
+Paciente LUIS CLAUDIO SIWEK transferido de Vita Batel para Vita Batel 3 no dia 18/08/2020
+Paciente LUIS PEREIRA DE ARUAUJO transferido de Ecoville 2 para Ecoville no dia 30/12/2020
+Paciente LUIZ CARLOS PEREIRA transferido de Reabilitação COVID 5 para Reabilitação COVID 4 no dia 07/09/2020
+Paciente LUIZ GONÇALVES TABORDA transferido de Reabilitação COVID 5 para Reabilitação COVID 7 no dia 24/11/2020
+Paciente MADALENA BORCHARDT transferido de Ecoville 2 para Ecoville no dia 04/07/2020
+Paciente MADALENA MANTOAN DE OLIVEIRA transferido de Marcelino 2 para Marcelino 4 no dia 30/09/2020
+Paciente MALVINA APPEL SCHIAVON transferido de Vita Batel 2 para Vita Batel 3 no dia 18/01/2020
+Paciente MANOEL CARDOSO DA COSTA transferido de Trabalhador COVID 1 para Trabalhador COVID 2 no dia 05/10/2020
+Paciente MANOEL XAVIER DE SOUZA transferido de Reabilitação COVID 4 para Reabilitação COVID 6 no dia 31/08/2020
+Paciente MARCELA CORREA ZAHN transferido de Ecoville 2 para Ecoville no dia 22/06/2020
+Paciente MARCELO LUIZ CE transferido de Vita Batel 3 para Vita Batel 2 no dia 01/08/2020
+Paciente MARCIO KOSLINSKI transferido de Ecoville 2 para Ecoville no dia 14/08/2020
+Paciente MARCOS ANTONIO GOMES transferido de Vita Batel para Vita Batel 2 no dia 30/01/2020
+Paciente MARIA APARECIDA LOPES RODRIGUES transferido de SantaCasa UTI1 CirúrgicaA para SantaCasa UTI1 CirúrgicaB no dia 25/01/2020
+Paciente MARIA DA SILVA NASCIMENTO ARAUJO transferido de Reabilitação COVID 3 para Reabilitação COVID 6 no dia 20/06/2020
+Paciente MARIA DELAVALLE PEREIRA transferido de Vita Batel 3 para Vita Batel 2 no dia 20/02/2020
+Paciente MARIA DIRCE BARANIUK transferido de Marcelino 2 para Marcelino 4 no dia 16/08/2020
+Paciente MARIA JOSE PEREIRA STIEGLER transferido de Reabilitação COVID 4 para Reabilitação COVID 3 no dia 05/11/2020
+Paciente MARIA MANICKA transferido de Santa Casa UTI4 para Santa Casa UTI3 no dia 20/08/2020
+Paciente MARIA NERES AVER transferido de Vita Batel 2 para Vita Batel no dia 23/05/2020
+Paciente MARIA OLIVA CASTRO DE ASSUMPCAO transferido de Santa Casa UTI3 para Santa Casa UTI2 no dia 21/08/2020
+Paciente MARILDA DE JESUS CARNEIRO PRADO transferido de Reabilitação COVID 6 para Reabilitação COVID 4 no dia 01/09/2020
+Paciente MARILDE FELIX DE SOUZA transferido de Santa Casa UTI3 para Santa Casa UTI4 no dia 25/11/2020
+Paciente MARINES FONSECA transferido de Reabilitação COVID 6 para Reabilitação COVID 3 no dia 31/08/2020
+Paciente MARIO PACHECO SANTI transferido de Ecoville 2 para Ecoville no dia 09/08/2020
+Paciente MARLENE DE SOUZA PINHEIRO transferido de Vita Batel 2 para Vita Batel no dia 26/05/2020
+Paciente MATILDE ALVES DE OLIVEIRA transferido de Santa Casa UTI2 para Santa Casa UTI4 no dia 03/04/2020
+Paciente MATILDE MARTINS transferido de Vita Batel 3 para Vita Batel 2 no dia 04/09/2020
+Paciente MAURICIO LEONARDO CANDIDO FERREIRA transferido de Trabalhador COVID 2 para Trabalhador COVID 1 no dia 07/05/2020
+Paciente MAURICIO LEONARDO CANDIDO FERREIRA transferido de Trabalhador COVID 1 para Trabalhador COVID 2 no dia 11/05/2020
+Paciente MAURO TAVARES DE MELLO transferido de Trabalhador COVID 2 para Trabalhador Trauma no dia 28/05/2020
+Paciente MICHELLE DAMIAN NUNES transferido de Vita Batel 2 para Vita Batel 3 no dia 13/02/2020
+Paciente MICHELLE PALANICHESKI MEIRELIS transferido de Trabalhador Trauma para Trabalhador COVID 1 no dia 29/12/2020
+Paciente MIGUEL FELIZ DE OLIVEIRA DRANKA transferido de Santa Casa UTI2 para Santa Casa UTI4 no dia 27/04/2020
+Paciente MILTON DE RAMOS transferido de SantaCasa UTI1 CirúrgicaA para SantaCasa UTI1 CirúrgicaB no dia 13/02/2020
+Paciente MITIO NATUME transferido de Vita Batel 3 para Vita Batel no dia 28/02/2020
+Paciente MOACYR BRANDÃO transferido de Reabilitação COVID 4 para Reabilitação COVID 3 no dia 09/11/2020
+Paciente MURIEL LOPES transferido de Ecoville 2 para Ecoville no dia 25/06/2020
+Paciente NARCISIO MILIORANCA transferido de Santa Casa UTI2 para Santa Casa UTI4 no dia 23/09/2020
+Paciente NAZARENO ARRUDA LESSA transferido de Trabalhador COVID 2 para Trabalhador COVID 1 no dia 22/09/2020
+Paciente NDIASSE MBENGUE transferido de Trabalhador COVID 1 para Trabalhador COVID 2 no dia 29/12/2020
+Paciente NELSON JOÃO DAL BELLO transferido de Ecoville 2 para Ecoville no dia 15/09/2020
+Paciente NELSON VICENTE PERES transferido de Ecoville 2 para Ecoville no dia 25/10/2020
+Paciente NERI FERNANDES DE OLIVEIRA transferido de Trabalhador COVID 1 para Trabalhador COVID 2 no dia 23/10/2020
+Paciente NEUSA SANTOS CURTISS transferido de Ecoville 2 para Ecoville no dia 01/08/2020
+Paciente NICANOR CARNEIRO transferido de Santa Casa UTI5 para Santa Casa UTI2 no dia 29/11/2020
+Paciente NILZA ROSA LOURNEÇO transferido de Reabilitação COVID 3 para Reabilitação COVID 5 no dia 13/10/2020
+Paciente NOILY PIVA transferido de Ecoville 2 para Ecoville no dia 25/08/2020
+Paciente OILETE SERVINA DA SILVA transferido de Vita Batel 2 para Vita Batel 3 no dia 06/11/2020
+Paciente OLDA SIGNORI NEUWALD transferido de Vita Batel para Vita Batel 3 no dia 29/01/2020
+Paciente OLGA VIDOLIN DOS SANTOS transferido de Vita Batel para Vita Batel 3 no dia 11/02/2020
+Paciente OLIVIA MARIA CANCELLI FAQUIN transferido de Ecoville 2 para Ecoville no dia 26/09/2020
+Paciente OSMAIR CARNEIRO transferido de Reabilitação COVID 6 para Reabilitação COVID 5 no dia 31/08/2020
+Paciente OSMAIR CARNEIRO transferido de Reabilitação COVID 5 para Reabilitação COVID 4 no dia 03/09/2020
+Paciente OSNIR PADILHA transferido de Santa Casa UTI2 para Santa Casa UTI3 no dia 27/06/2020
+Paciente RAMIRO AUGUSTO DE PADUA XAVIER transferido de Marcelino 2 para Marcelino 4 no dia 06/05/2020
+Paciente REGINA ANASTACIA BIANCO transferido de Trabalhador COVID 1 para Trabalhador COVID 2 no dia 03/04/2020
+Paciente RODRIGO KOPP transferido de Vita Batel para Vita Batel 2 no dia 26/05/2020
+Paciente ROSANE DE OLIVEIRA DOMINGOS transferido de Santa Casa UTI2 para Santa Casa UTI5 no dia 26/12/2020
+Paciente ROSELEY BARBOSA DOS SANTOS transferido de Cajuru IV para Cajuru I no dia 24/03/2020
+Paciente ROSELIS SERTORIO LITVIN transferido de Vita Batel para Vita Batel 3 no dia 29/01/2020
+Paciente ROSI MARY VIANNA transferido de Vita Batel 2 para Vita Batel no dia 08/01/2020
+Paciente ROZANGILA MARIA DE FREITAS SIQUEIRA transferido de Vita Batel para Vita Batel 2 no dia 10/12/2020
+Paciente RUTE LAZARINO DE OLIVEIRA transferido de Cajuru I para Cajuru II no dia 25/06/2020
+Paciente SAMUEL NERES SANTANA transferido de Reabilitação COVID 5 para Reabilitação COVID 6 no dia 29/08/2020
+Paciente SEGISMUNDO MACIOSKI transferido de Ecoville 2 para Ecoville no dia 26/08/2020
+Paciente SERGIO SAVI AGULHAM transferido de Ecoville 2 para Ecoville no dia 26/09/2020
+Paciente SHIRLEY MORAES PRESTES transferido de Vita Batel 3 para Vita Batel 2 no dia 20/03/2020
+Paciente SILVIO CARLOS RIBAS AURICHIO transferido de Vita Batel para Vita Batel 3 no dia 12/01/2020
+Paciente SILVIO CARLOS RIBAS AURICHIO transferido de Vita Batel 3 para Vita Batel no dia 11/01/2020
+Paciente SIRLEI DO ROCIO ANTONIA DA SILVA transferido de Vita Batel para Vita Batel 2 no dia 17/01/2020
+Paciente SIRLEI DO ROCIO ANTONIA DA SILVA transferido de Vita Batel 2 para Vita Batel no dia 21/01/2020
+Paciente SUELENE DO SOCORRO QUINTEROS DOLDAN transferido de Marcelino 2 para Marcelino 4 no dia 19/05/2020
+Paciente TEREZA ROCHA RIBEIRO CUCHINIERK transferido de SantaCasa UTI1 CirúrgicaA para SantaCasa UTI1 CirúrgicaB no dia 20/02/2020
+Paciente TEREZINHA IZELAIDE DOS SANTOS transferido de Ecoville 2 para Ecoville no dia 06/09/2020
+Paciente ULISSES CABRAL FILHO transferido de Ecoville 2 para Ecoville no dia 23/08/2020
+Paciente VALDIR BARBOSA DOS SANTOS transferido de Trabalhador COVID 1 para Trabalhador COVID 2 no dia 23/12/2020
+Paciente VANIA MARIA D AVILLA CARDOSO transferido de Marcelino 2 para Marcelino 4 no dia 04/06/2020
+Paciente VANUZA NASCIMENTO SOUZA transferido de Reabilitação COVID 3 para Reabilitação COVID 6 no dia 01/07/2020
+Paciente VILSON MILARCH transferido de Trabalhador COVID 2 para Trabalhador COVID 1 no dia 04/06/2020
+Paciente WALNEUSA FARIAS DA COSTA transferido de Ecoville para Ecoville 2 no dia 29/08/2020
+Paciente WILSON MORO CONQUE transferido de Santa Casa UTI5 para Santa Casa UTI3 no dia 17/08/2020
+Paciente YARA DE SOUSA MARANHÃO transferido de Vita Batel para Vita Batel 3 no dia 31/01/2020
+Paciente ZENIR TAVARES PURKOT transferido de Reabilitação COVID 3 para Reabilitação COVID 4 no dia 13/08/2020
+------x------x------x------x------
+------x------x------x------x------
+------x------x------x------x------
+Cópia de dados de alta de transferências concluída
+Exclusão de linhas de transferências concluída
+Exportação concluída sem erros
