@@ -35,6 +35,16 @@ df['Data alta'] = df['Data alta'].dt.date
 
 df['Hospital'] = df['UTI'].apply(lambda x: x.split(' ')[0])
 
+dups = df.duplicated(subset=['Paciente', 'Hospital', 'Data/horário internamento', 'Registro', 'Prontuário', 'Data alta', 'Data nascimento'])
+
+onlyDup = df.iloc[dups[dups].index.tolist()]
+
+with open(outputText, "a") as f:
+    f.write('x-----x Removendo pacientes duplicados:\n')
+    for name in onlyDup['Paciente']:
+        f.write(name + '\n')
+    f.write('x-----x Pacientes duplicados removidos!\n')
+
 # Same name, register, medical record, even if in different ICUs, is likely a mistake
 df.drop_duplicates(subset=['Paciente', 'Hospital', 'Data/horário internamento', 'Registro', 'Prontuário', 'Data alta', 'Data nascimento'], keep='first', inplace=True)
 # Group patients, hospital and record to group same treatment together, then order by admission date to grab parent row (transfer-wise) first
@@ -91,24 +101,3 @@ df.to_excel(outputSheet, sheet_name="Página 1", index=False)
 
 with open(outputText, "a") as f:
     f.write('Exportação concluída sem erros\n')
-
-# ----------------
-# Segmented export
-# ----------------
-
-# In case of failure to export all in one file
-
-# Max step achieved on LaptopTI = 10.000 (failed on 30.000)
-
-# Max step achieved on Blade2 = 30.000 (never failed)
-
-# max = len(df.index)
-# stop = -1
-# step = 10000
-# loops = 1
-# start = 0
-# while start < max:
-#     start = stop + 1
-#     stop = 10000 * loops
-#     df.loc[start:stop].to_excel("ordered" + str(loops) + ".xlsx", sheet_name="Sheet_1", index=False)
-#     loops += 1

@@ -33,6 +33,16 @@ df['Data alta'] = pd.to_datetime(df['Data alta'], format="%d/%m/%Y", errors='ign
 df['Data internamento'] = df['Data internamento'].dt.date
 df['Data alta'] = df['Data alta'].dt.date
 
+dups = df.duplicated(subset=['Paciente', 'Hospital', 'Data internamento', 'Registro', 'Prontuário', 'Data alta', 'Data nascimento'])
+
+onlyDup = df.iloc[dups[dups].index.tolist()]
+
+with open(outputText, "a") as f:
+    f.write('x-----x Removendo pacientes duplicados:\n')
+    for name in onlyDup['Paciente']:
+        f.write(name + '\n')
+    f.write('x-----x Pacientes duplicados removidos!\n')
+
 # Same name, register, medical record, even if in different ICUs, is likely a mistake
 df.drop_duplicates(subset=['Paciente', 'Hospital', 'Data internamento', 'Registro', 'Prontuário', 'Data alta', 'Data nascimento'], keep='first', inplace=True)
 # Group patients, hospital and record to group same treatment together, then order by admission date to grab parent row (transfer-wise) first
